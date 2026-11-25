@@ -1,0 +1,16 @@
+{
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_revision": null,
+  "embedding_dim": 384,
+  "max_seq_length": 256,
+  "normalize_embeddings": true,
+  "C": 10.0,
+  "class_weight": "balanced",
+  "threshold": 0.45,
+  "dev_macro_f1": 0.9873,
+  "dev_accuracy": 0.993,
+  "dev_false_positives": 2,
+  "dev_false_negatives": 1,
+  "grid_combinations_tried": 5,
+  "seed": 42
+}
