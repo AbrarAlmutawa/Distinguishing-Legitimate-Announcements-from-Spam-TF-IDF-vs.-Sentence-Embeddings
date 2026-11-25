@@ -1,0 +1,17 @@
+{
+  "ngram_range": [
+    1,
+    1
+  ],
+  "min_df": 1,
+  "C": 10.0,
+  "class_weight": "balanced",
+  "sublinear_tf": true,
+  "threshold": 0.5,
+  "dev_macro_f1": 0.9957,
+  "dev_accuracy": 0.9977,
+  "dev_false_positives": 0,
+  "dev_false_negatives": 1,
+  "grid_combinations_tried": 24,
+  "seed": 42
+}

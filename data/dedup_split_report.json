@@ -1,0 +1,38 @@
+{
+  "raw_rows": 2893,
+  "raw_spam": 481,
+  "raw_legit": 2412,
+  "rows_with_empty_subject": 62,
+  "input_text": "subject + ' ' + message (empty subject -> body only)",
+  "exact_duplicates_removed": 17,
+  "removed_spam": 13,
+  "removed_legit": 4,
+  "exact_duplicate_texts_with_conflicting_labels": 0,
+  "rows_after_exact_dedup": 2876,
+  "near_dup_threshold": 0.9,
+  "near_dup_groups_with_2plus_messages": 141,
+  "messages_in_near_dup_groups": 319,
+  "largest_group_size": 5,
+  "leakage_check": "passed: no group id or normalised text shared across train/dev/test",
+  "splits": {
+    "train": {
+      "n": 2014,
+      "spam": 326,
+      "legit": 1688,
+      "spam_share": 0.1619
+    },
+    "dev": {
+      "n": 430,
+      "spam": 70,
+      "legit": 360,
+      "spam_share": 0.1628
+    },
+    "test": {
+      "n": 432,
+      "spam": 72,
+      "legit": 360,
+      "spam_share": 0.1667
+    }
+  },
+  "seed": 42
+}

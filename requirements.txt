@@ -1,0 +1,12 @@
+# Tested with Python 3.13 (Google Colab: Python 3.11+ works)
+scikit-learn==1.9.1
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+joblib==1.6.0
+# Needed to execute the notebook locally
+nbformat
+nbconvert
+ipykernel
+# TODO (Jana): add Method 2 dependencies with pinned versions, e.g.
+# sentence-transformers==<version used>
