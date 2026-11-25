@@ -12,7 +12,7 @@ NLP course project, Option 1 (Spam Detection). Compares **TF-IDF + logistic regr
 
 ## Quick start (local)
 ```bash
-git clone <repo-url> && cd <repo>
+git clone https://github.com/AbrarAlmutawa/Distinguishing-Legitimate-Announcements-from-Spam-TF-IDF-vs.-Sentence-Embeddings && cd Distinguishing-Legitimate-Announcements-from-Spam-TF-IDF-vs.-Sentence-Embeddings
 pip install -r requirements.txt
 jupyter notebook ling_spam_pipeline.ipynb
 ```
