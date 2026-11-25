@@ -8,5 +8,7 @@ joblib==1.6.0
 nbformat
 nbconvert
 ipykernel
-# TODO (Jana): add Method 2 dependencies with pinned versions, e.g.
-# sentence-transformers==<version used>
+# Method 2 (Jana): pretrained sentence embeddings
+sentence-transformers==6.3.0
+transformers==5.24.1
+torch>=2.0  # Colab's preinstalled torch is fine; the exact version is printed in the notebook
